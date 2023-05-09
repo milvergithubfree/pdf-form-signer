@@ -1,0 +1,10 @@
+:host ::ng-deep {
+  & ngx-extended-pdf-viewer {
+    & .toolbarButton>span {
+      display: none;
+    }
+    & .choiceWidgetAnnotation > select:not([size]) {
+      background-repeat: inherit;
+    }
+  }
+}
